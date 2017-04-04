@@ -1,9 +1,3 @@
-GIT
-  remote: https://github.com/ddanej/jennings_view_tool
-  revision: 62ab54d5a45fc05916f21d6b255d1feafb4879ce
-  specs:
-    jennings_view_tool (0.1.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -80,6 +74,7 @@ GEM
     jbuilder (2.6.3)
       activesupport (>= 3.0.0, < 5.2)
       multi_json (~> 1.2)
+    jennings_view_tool (0.1.0)
     jquery-rails (4.2.2)
       rails-dom-testing (>= 1, < 3)
       railties (>= 4.2.0)
@@ -194,7 +189,7 @@ DEPENDENCIES
   devise (~> 4.2, >= 4.2.1)
   friendly_id (~> 5.1.0)
   jbuilder (~> 2.5)
-  jennings_view_tool!
+  jennings_view_tool (~> 0.1.0)
   jquery-rails
   listen (~> 3.0.5)
   pg (~> 0.18)
